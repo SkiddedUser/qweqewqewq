@@ -3650,7 +3650,7 @@ do
 		if PLR~=Player then return end
 		local Args={...}
 		if Args[1]=="R" then
-			print("hi")
+			return CrossClient.Functions[Args[2]](Args[3])
 		end
 	end
 	Rem.OnServerEvent:Connect(function(PLR,IO,L,...)
