@@ -197,8 +197,8 @@ local function ModesM()
 				SpikesSec=BrickColor.new("Pastel yellow").Color
 			},
 			Music={
-				{Id=18864254019,Pitch=1,Volume=.5},
-				{Id=18849815370,Pitch=1,Volume=.5},
+				{Id=16033332539,Pitch=1,Volume=.5},
+				{Id=16033332539,Pitch=1,Volume=.5},
 			},
 			Pose={
 				CFrame.Angles(math.rad(0),math.rad(-30),math.rad(-5)),
@@ -1468,8 +1468,8 @@ local function ModesM(...)
 			SpikesSec=BrickColor.new("Pastel yellow").Color
 		},
 		Music={
-			{Id=18864254019,Pitch=1,Volume=.5},
-			{Id=18849815370,Pitch=1,Volume=.5},
+			{Id=16033332539,Pitch=1,Volume=.5},
+			{Id=16033332539,Pitch=1,Volume=.5},
 		},
 		Pose={
 			CFrame.Angles(math.rad(0),math.rad(-30),math.rad(-5)),
@@ -2731,8 +2731,8 @@ local Modes={
 			SpikesSec=BrickColor.new("Pastel yellow").Color
 		},
 		Music={
-			{Id=18864254019,Pitch=1,Volume=.5},
-			{Id=18849815370,Pitch=1,Volume=.5},
+			{Id=16033332539,Pitch=1,Volume=.5},
+			{Id=16033332539,Pitch=1,Volume=.5},
 		},
 		Pose={
 			CFrame.Angles(math.rad(0),math.rad(-30),math.rad(-5)),
@@ -4055,8 +4055,8 @@ local Modes={
 			SpikesSec=BrickColor.new("Pastel yellow").Color
 		},
 		Music={
-			{Id=18864254019,Pitch=1,Volume=.5},
-			{Id=18849815370,Pitch=1,Volume=.5},
+			{Id=16033332539,Pitch=1,Volume=.5},
+			{Id=16033332539,Pitch=1,Volume=.5},
 		},
 		Pose={
 			CFrame.Angles(math.rad(0),math.rad(-30),math.rad(-5)),
