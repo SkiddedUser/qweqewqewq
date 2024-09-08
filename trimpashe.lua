@@ -480,8 +480,8 @@ local function ModesM()
 				SpikesSec=BrickColor.new("Phosph. White").Color
 			},
 			Music={
-				{Id=18865687393,Pitch=1,Volume=.8},
-				{Id=18865676126,Pitch=1,Volume=.8},
+				{Id=95580180339484,Pitch=1,Volume=.8},
+				{Id=95580180339484,Pitch=1,Volume=.8},
 			},
 			Pose={
 				CFrame.Angles(math.rad(-2.5),math.rad(0),math.rad(0)),
@@ -1752,7 +1752,7 @@ local function ModesM(...)
 		},
 		Music={
 			{Id=18865687393,Pitch=1,Volume=.8},
-			{Id=18865676126,Pitch=1,Volume=.8},
+			{Id=95580180339484,Pitch=1,Volume=.8},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-2.5),math.rad(0),math.rad(0)),
@@ -3015,7 +3015,7 @@ local Modes={
 		},
 		Music={
 			{Id=18865687393,Pitch=1,Volume=.8},
-			{Id=18865676126,Pitch=1,Volume=.8},
+			{Id=95580180339484,Pitch=1,Volume=.8},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-2.5),math.rad(0),math.rad(0)),
@@ -4339,7 +4339,7 @@ local Modes={
 		},
 		Music={
 			{Id=18865687393,Pitch=1,Volume=.8},
-			{Id=18865676126,Pitch=1,Volume=.8},
+			{Id=95580180339484,Pitch=1,Volume=.8},
 		},
 		Pose={
 			CFrame.Angles(math.rad(-2.5),math.rad(0),math.rad(0)),
