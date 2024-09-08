@@ -61,258 +61,495 @@ local function ModesM()
 		cf(1.4,-.5,0)*angles(-80,-90,0,true)*angles(50,0,0,true),
 	}
 	--
+	return {
 		Q={
-		Colours={
-			Glow=BrickColor.new("Neon orange").Color,
-			GlowSec=BrickColor.new("Royal purple").Color,
-			Body=BrickColor.new("Really black").Color,
-			BodySec=BrickColor.new("Institutional white").Color,
-			Spikes=BrickColor.new("Royal purple").Color,
-			SpikesSec=BrickColor.new("Neon orange").Color
+			Colours={
+				Glow=BrickColor.new("Neon orange").Color,
+				GlowSec=BrickColor.new("Royal purple").Color,
+				Body=BrickColor.new("Really black").Color,
+				BodySec=BrickColor.new("Institutional white").Color,
+				Spikes=BrickColor.new("Royal purple").Color,
+				SpikesSec=BrickColor.new("Neon orange").Color
+			},
+			Music={
+				{Id=18835203679,Pitch=1,Volume=1.75}
+			},
+			Pose={
+				CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(2),math.rad(15),math.rad(0)),
+				CFrame.new(-0.1,-0.1,0.05)*CFrame.Angles(math.rad(-3),math.rad(-10),math.rad(6)),
+				CFrame.new(0.3,-0.1,0.75)*CFrame.Angles(math.rad(-15),math.rad(-70),math.rad(10))*CFrame.Angles(math.rad(25),math.rad(0),math.rad(0)),
+				CFrame.new(0,0,-0.2)*CFrame.Angles(math.rad(-7.5),math.rad(-20),math.rad(3)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(0),math.rad(5),math.rad(-2.5)),
+			},
+			WingCFs=DefWingCFs,
+			ParticleType="SpikesUp"
 		},
-		Music={
-			{Id=18835203679,Pitch=1,Volume=1.75}
+		E={
+			Colours={
+				Glow=BrickColor.new("Toothpaste").Color,
+				GlowSec=BrickColor.new("Baby blue").Color,
+				Body=BrickColor.new("Institutional white").Color,
+				BodySec=BrickColor.new("Light blue").Color,
+				Spikes=BrickColor.new("Baby blue").Color,
+				SpikesSec=BrickColor.new("Toothpaste").Color
+			},
+			Music={
+				{Id=14427462602,Pitch=1,Volume=.5},
+				{Id=14427462602,Pitch=1,Volume=.4},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-7),math.rad(5),math.rad(0)),
+				CFrame.new(0,0,0.1)*CFrame.Angles(math.rad(5),math.rad(-5),math.rad(0)),
+				CFrame.new(-0.45,-0.4,-0.1)*CFrame.Angles(math.rad(100),math.rad(0),math.rad(-70)),
+				CFrame.new(0.4,-0.5,-0.1)*CFrame.Angles(math.rad(110),math.rad(20),math.rad(80)),
+				CFrame.new(0,0,-0.05)*CFrame.Angles(math.rad(-10),math.rad(-5),math.rad(2)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(-3),math.rad(8),math.rad(-3)),
+			},
+			WingCFs={
+				cf(-1,.5,0)*angles(-140,-90,0,true)*angles(-30,0,0,true),
+				cf(-2,.3,.25)*angles(-105,-90,0,true)*angles(45,90,0,true),
+				cf(-1.4,-.5,0)*angles(-80,-90,0,true)*angles(-50,0,0,true),
+				cf(1,.5,0)*angles(-140,-90,0,true)*angles(30,0,0,true),
+				cf(2,.15,.25)*angles(-95,-90,0,true)*angles(-45,-90,0,true),
+				cf(1.4,-.5,0)*angles(-80,-90,0,true)*angles(50,0,0,true),
+			},
+			ParticleType="BackRing"
 		},
-		Pose={
-			CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
-			CFrame.new(0,0,0)*CFrame.Angles(math.rad(2),math.rad(15),math.rad(0)),
-			CFrame.new(-0.1,-0.1,0.05)*CFrame.Angles(math.rad(-3),math.rad(-10),math.rad(6)),
-			CFrame.new(0.3,-0.1,0.75)*CFrame.Angles(math.rad(-15),math.rad(-70),math.rad(10))*CFrame.Angles(math.rad(25),math.rad(0),math.rad(0)),
-			CFrame.new(0,0,-0.2)*CFrame.Angles(math.rad(-7.5),math.rad(-20),math.rad(3)),
-			CFrame.new(0,0,0)*CFrame.Angles(math.rad(0),math.rad(5),math.rad(-2.5)),
+		R={
+			Colours={
+				Glow=BrickColor.new("Maroon").Color,
+				GlowSec=BrickColor.new("Really black").Color,
+				Body=BrickColor.new("Really black").Color,
+				BodySec=BrickColor.new("Maroon").Color,
+				Spikes=BrickColor.new("Really black").Color,
+				SpikesSec=BrickColor.new("Maroon").Color
+			},
+			Music={
+				{Id=18835317555,Pitch=1,Volume=.5},
+				{Id=18835333772,Pitch=.846,Volume=.5},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-15),math.rad(-20),math.rad(-10)),
+				CFrame.new(0.35,1,0.125)*CFrame.Angles(math.rad(10),math.rad(20),math.rad(-10)),
+				CFrame.new(-0.1,-0.35,-0.1)*CFrame.Angles(math.rad(20),math.rad(20),math.rad(25)),
+				CFrame.new(0.1,0.3,-0.3)*CFrame.Angles(math.rad(170),math.rad(-30),math.rad(-10)),
+				CFrame.new(0.1,0.8,-0.65)*CFrame.Angles(math.rad(-15),math.rad(-30),math.rad(5)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(5),math.rad(10),math.rad(-5))
+			},
+			WingCFs={
+				cf(-1,.5,0)*angles(-140,-90,0,true)*angles(-30,0,0,true),
+				cf(-2,8,-1.5),
+				cf(-1.4,-.5,0)*angles(-80,-90,0,true)*angles(-50,0,0,true),
+				cf(1,.5,0)*angles(-140,-90,0,true)*angles(30,0,0,true),
+				cf(1,6,-1.4)*angles(0,0,-80,true),
+				cf(1.4,-.5,0)*angles(-80,-90,0,true)*angles(50,0,0,true),
+			},
+			Shaky=true,
+			ParticleType="Hang"
 		},
-		WingCFs=DefWingCFs,
-		ParticleType="SpikesUp"
-	},
-	E={
-		Colours={
-			Glow=BrickColor.new("Toothpaste").Color,
-			GlowSec=BrickColor.new("Baby blue").Color,
-			Body=BrickColor.new("Institutional white").Color,
-			BodySec=BrickColor.new("Light blue").Color,
-			Spikes=BrickColor.new("Baby blue").Color,
-			SpikesSec=BrickColor.new("Toothpaste").Color
+		Y={
+			Colours={
+				Glow=BrickColor.new("White").Color,
+				GlowSec=BrickColor.new("Really black").Color,
+				Body=BrickColor.new("Really black").Color,
+				BodySec=BrickColor.new("White").Color,
+				Spikes=BrickColor.new("Really black").Color,
+				SpikesSec=BrickColor.new("White").Color
+			},
+			Music={
+				{Id=18841356192,Pitch=1,Volume=.5},
+				{Id=18841101762,Pitch=1,Volume=.5},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-5),math.rad(-35),math.rad(0)),
+				CFrame.new(0,-0.1,0)*CFrame.Angles(math.rad(-7.5),math.rad(35),math.rad(0)),
+				CFrame.new(0,-0.40,-0)*CFrame.Angles(math.rad(5),math.rad(0),math.rad(35))*CFrame.Angles(math.rad(0),math.rad(-0),math.rad(0)),
+				CFrame.new(0.125,-0.25,0.15)*CFrame.Angles(math.rad(-2.5),math.rad(35),math.rad(-15)),
+				CFrame.new(0.1,0.1,-0.1)*CFrame.Angles(math.rad(10),math.rad(-37.5),math.rad(4)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(5),math.rad(15),math.rad(-5)),
+			},
+			WingCFs={
+				--
+				cf(-1,.5,0)*angles(-30,-90,0,true)*angles(-40,2,0,true),
+				--whites
+				cf(-.75,0,0)*angles(-125,-90,0,true)*angles(-30,10,1,true),
+				--
+				cf(-1.4,-.5,0)*angles(-180,-90,0,true)*angles(-40,2,0,true),
+				--
+				cf(1,.5,0)*angles(180,-90,0,true)*angles(130,-1,0,true),
+				--whites
+				cf(.85,0,0)*angles(-125,-90,0,true)*angles(10,-10,1,true),
+				--
+				cf(1.4,-.5,0)*angles(-180,-90,0,true)*angles(30,-1,0,true),
+				--
+			},
+			Shaky=false,
+			ParticleType="Hang"
 		},
-		Music={
-			{Id=14427462602,Pitch=1,Volume=.5},
-			{Id=14427462602,Pitch=1,Volume=.4},
+		U={
+			Colours={
+				Glow=BrickColor.new("Sand yellow metallic").Color,
+				GlowSec=BrickColor.new("Pastel yellow").Color,
+				Body=BrickColor.new("Sand yellow metallic").Color,
+				BodySec=BrickColor.new("Pastel yellow").Color,
+				Spikes=BrickColor.new("Sand yellow metallic").Color,
+				SpikesSec=BrickColor.new("Pastel yellow").Color
+			},
+			Music={
+				{Id=18864254019,Pitch=1,Volume=.5},
+				{Id=18849815370,Pitch=1,Volume=.5},
+			},
+			Pose={
+				CFrame.Angles(math.rad(0),math.rad(-30),math.rad(-5)),
+				CFrame.new(0,-0.1,-0.1)*CFrame.Angles(math.rad(-10),math.rad(30),math.rad(0)),
+				CFrame.new(-0.1,-0.15,-0.025)*CFrame.Angles(math.rad(7.5),math.rad(10),math.rad(10)),
+				CFrame.new(0.1,-0.125,0.1)*CFrame.Angles(math.rad(-10),math.rad(20),math.rad(-10)),
+				CFrame.new(0.1,0.2,-0.35)*CFrame.Angles(math.rad(5),math.rad(-30),math.rad(5)),
+				CFrame.new(0,0,-0.125)*CFrame.Angles(math.rad(-5),math.rad(0),math.rad(0)),
+			},
+			WingCFs={
+				--lado derecho
+				cf(-1,.5,0)*angles(-120,-70,-30,true)*angles(-40,-2,-40,true),
+				--whites
+				cf(-.75,0,0)*angles(-145,-70,0,true)*angles(-30,10,1,true),
+				--lado derecho
+				cf(-1.4,-.5,0)*angles(-120,-90,0,true)*angles(-40,2,0,true),
+				--lado izquierdo
+				cf(1,.5,0)*angles(120,-90,0,true)*angles(130,-1,0,true),
+				--whites
+				cf(.85,0,0)*angles(-145,-70,0,true)*angles(10,-10,1,true),
+				--lado izquierdo
+				cf(1.4,-.5,0)*angles(-120,-90,0,true)*angles(30,-1,0,true),
+				--
+			},
+			ParticleType="BackRing"
 		},
-		Pose={
-			CFrame.Angles(math.rad(-7),math.rad(5),math.rad(0)),
-			CFrame.new(0,0,0.1)*CFrame.Angles(math.rad(5),math.rad(-5),math.rad(0)),
-			CFrame.new(-0.45,-0.4,-0.1)*CFrame.Angles(math.rad(100),math.rad(0),math.rad(-70)),
-			CFrame.new(0.4,-0.5,-0.1)*CFrame.Angles(math.rad(110),math.rad(20),math.rad(80)),
-			CFrame.new(0,0,-0.05)*CFrame.Angles(math.rad(-10),math.rad(-5),math.rad(2)),
-			CFrame.new(0,0,0)*CFrame.Angles(math.rad(-3),math.rad(8),math.rad(-3)),
+		F={
+			Colours={
+				Glow=BrickColor.new("Pastel Blue").Color,
+				GlowSec=BrickColor.new("Baby blue").Color,
+				Body=BrickColor.new("Black metallic").Color,
+				BodySec=BrickColor.new("Pastel Blue").Color,
+				Spikes=BrickColor.new("Yellow flip/flop").Color,
+				SpikesSec=BrickColor.new("Bright blue").Color
+			},
+			Music={
+				{Id=18850614584,Pitch=1,Volume=.9},
+				{Id=18850627890,Pitch=1,Volume=.9},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-10),math.rad(-15),math.rad(0)),
+				CFrame.new(0,0,0.15)*CFrame.Angles(math.rad(7.5),math.rad(15),math.rad(0)),
+				CFrame.new(-0.25,-0.25,-0.15)*CFrame.Angles(math.rad(90),math.rad(0),math.rad(-80))*CFrame.Angles(math.rad(20),math.rad(5),math.rad(0)),
+				CFrame.new(0.3,-0.2,-0.2)*CFrame.Angles(math.rad(90),math.rad(0),math.rad(75))*CFrame.Angles(math.rad(10),math.rad(30),math.rad(0)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(-10),math.rad(-10),math.rad(0)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(-10),math.rad(0),math.rad(-5)),
+			},
+			WingCFs={
+				--lado derecho
+				cf(-1,.5,0)*angles(-120,-70,-30,true)*angles(-40,-2,-40,true),
+				--whites
+				cf(-.75,0,0)*angles(-145,-70,0,true)*angles(-30,10,1,true),
+				--lado derecho
+				cf(-1.4,-.5,0)*angles(-120,-90,0,true)*angles(-40,2,0,true),
+				--lado izquierdo
+				cf(1,.5,0)*angles(120,-90,0,true)*angles(130,-1,0,true),
+				--whites
+				cf(.85,0,0)*angles(-145,-70,0,true)*angles(10,-10,1,true),
+				--lado izquierdo
+				cf(1.4,-.5,0)*angles(-120,-90,0,true)*angles(30,-1,0,true),
+				--
+			},
+			ParticleType="SpikesUp"
 		},
-		WingCFs={
-			cf(-1,.5,0)*angles(-140,-90,0,true)*angles(-30,0,0,true),
-			cf(-2,.3,.25)*angles(-105,-90,0,true)*angles(45,90,0,true),
-			cf(-1.4,-.5,0)*angles(-80,-90,0,true)*angles(-50,0,0,true),
-			cf(1,.5,0)*angles(-140,-90,0,true)*angles(30,0,0,true),
-			cf(2,.15,.25)*angles(-95,-90,0,true)*angles(-45,-90,0,true),
-			cf(1.4,-.5,0)*angles(-80,-90,0,true)*angles(50,0,0,true),
+		H = {
+			Colours = {
+				Glow=BrickColor.new("Neon orange").Color,
+				GlowSec=BrickColor.new("Sea green").Color,
+				Body=BrickColor.new("Black metallic").Color,
+				BodySec=BrickColor.new("Yellow flip/flop").Color,
+				Spikes=BrickColor.new("Lime green").Color,
+				SpikesSec=BrickColor.new("Neon orange").Color
+			},
+			Music={
+				{Id=17760087376,Pitch=1,Volume=.9},
+				{Id=18850627890,Pitch=1,Volume=.9},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-5),math.rad(-10),math.rad(-5)),
+				CFrame.new(0,0,0.1)*CFrame.Angles(math.rad(3),math.rad(10),math.rad(0)),
+				CFrame.new(-0.15,-0.25,-0.5)*CFrame.Angles(math.rad(90),math.rad(0),math.rad(-70))*CFrame.Angles(math.rad(0),math.rad(80),math.rad(0))*CFrame.Angles(math.rad(0),math.rad(0),math.rad(10)),
+				CFrame.new(0.1,-0.1,0.025)*CFrame.Angles(math.rad(-3),math.rad(5),math.rad(-3)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(-1),math.rad(-12.5),math.rad(0)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(-4),math.rad(5),math.rad(-2)),
+			},
+			WingCFs={
+				--lado derecho
+				cf(-1,.5,0)*angles(-120,-70,-30,true)*angles(-40,-2,-40,true),
+				--whites
+				cf(-.75,0,0)*angles(-145,-70,0,true)*angles(-30,10,1,true),
+				--lado derecho
+				cf(-1.4,-.5,0)*angles(-120,-90,0,true)*angles(-40,2,0,true),
+				--lado izquierdo
+				cf(1,.5,0)*angles(120,-90,0,true)*angles(130,-1,0,true),
+				--whites
+				cf(.85,0,0)*angles(-145,-70,0,true)*angles(10,-10,1,true),
+				--lado izquierdo
+				cf(1.4,-.5,0)*angles(-120,-90,0,true)*angles(30,-1,0,true),
+				--
+			},
+			ParticleType="SpikesUp"
 		},
-		ParticleType="BackRing"
-	},
-	R={
-		Colours={
-			Glow=BrickColor.new("Maroon").Color,
-			GlowSec=BrickColor.new("Really black").Color,
-			Body=BrickColor.new("Really black").Color,
-			BodySec=BrickColor.new("Maroon").Color,
-			Spikes=BrickColor.new("Really black").Color,
-			SpikesSec=BrickColor.new("Maroon").Color
+		J = {
+			Colours = {
+				Glow=BrickColor.new("Maroon").Color,
+				GlowSec=BrickColor.new("Maroon").Color,
+				Body=BrickColor.new("Really black").Color,
+				BodySec=BrickColor.new("Maroon").Color,
+				Spikes=BrickColor.new("Maroon").Color,
+				SpikesSec=BrickColor.new("Maroon").Color
+			},
+			Music={
+				{Id=18867299434,Pitch=1,Volume=.9},
+				{Id=18867403321,Pitch=1,Volume=.9},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-20),math.rad(-20),math.rad(0)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(2),math.rad(15),math.rad(0)),
+				CFrame.new(-0.25,-0.2,0)*CFrame.Angles(math.rad(160),math.rad(-70),math.rad(0))*CFrame.Angles(math.rad(-20),math.rad(0),math.rad(-10)),
+				CFrame.new(0,-0.1,0)*CFrame.Angles(math.rad(0),math.rad(-20),math.rad(-10))*CFrame.Angles(math.rad(-10),math.rad(20),math.rad(0)),
+				CFrame.new(0,0,-0.2)*CFrame.Angles(math.rad(4),math.rad(-5),math.rad(3)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(-10),math.rad(35),math.rad(-2.5)),
+			},
+			WingCFs={
+				--lado derecho
+				cf(-1,.5,0)*angles(-70,-90,0,true)*angles(-30,40,0,true),
+
+				--whites
+				cf(-.75,0,0)*angles(-60,-90,0,true)*angles(-60,0,0,true),
+
+				--lado derecho
+				cf(-1.4,-.5,0)*angles(-100,-90,40,true)*angles(-30,20,0,true),
+
+				--lado izquierdo
+				cf(1,.5,0)*angles(-70,-90,0,true)*angles(30,-40,0,true),
+
+				--whites
+				cf(.75,0,0)*angles(-60,-90,0,true)*angles(60,-0,0,true),
+
+				--lado izquierdo
+				cf(1.4,-.5,0)*angles(-100,-90,40,true)*angles(30,-20,0,true),
+			},
+			ParticleType="SpikesUp",
+			headCrack = true,
 		},
-		Music={
-			{Id=18835317555,Pitch=1,Volume=.5},
-			{Id=18835333772,Pitch=.846,Volume=.5},
+		L = {
+			Colours = {
+				Glow=BrickColor.new("White").Color,
+				GlowSec=BrickColor.new("White").Color,
+				Body=BrickColor.new("Really black").Color,
+				BodySec=BrickColor.new("Black metallic").Color,
+				Spikes=BrickColor.new("Really black").Color,
+				SpikesSec=BrickColor.new("Really black").Color
+			},
+			Music={
+				{Id=18923521851,Pitch=1,Volume=20},
+				{Id=18867403321,Pitch=1,Volume=.9},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-40),math.rad(-0),math.rad(0)),
+				CFrame.new(0,2,0)*CFrame.Angles(math.rad(0),math.rad(-0),math.rad(20))*CFrame.Angles(math.rad(0),math.rad(-20),math.rad(0)),
+				CFrame.new(-0.25,-0.2,0)*CFrame.Angles(math.rad(160),math.rad(-80),math.rad(2))*CFrame.Angles(math.rad(-20),math.rad(0),math.rad(-10)),
+				CFrame.new(0,-0.1,0)*CFrame.Angles(math.rad(0),math.rad(-70),math.rad(-0))*CFrame.Angles(math.rad(150),math.rad(20),math.rad(0)),
+				CFrame.new(-0.1,0.7,-1.2)*CFrame.Angles(math.rad(-45),math.rad(-30),math.rad(20)),
+				CFrame.new(0,0.4,-0.4)*CFrame.Angles(math.rad(30),math.rad(40),math.rad(-34))
+			},
+			WingCFs={
+				--lado derecho
+				cf(-0,.5,0)*angles(-70,-90,0,true)*angles(-30,40,0,true),
+
+				--whites
+				cf(-0,0,0)*angles(-120,-90,0,true)*angles(-60,0,0,true),
+
+				--lado derecho
+				cf(-0,-.5,0.3)*angles(-100,-90,40,true)*angles(-30,20,0,true),
+
+				--lado izquierdo
+				cf(0,.5,0.3)*angles(-70,-90,0,true)*angles(30,-40,0,true),
+
+				--whites
+				cf(0,0,0)*angles(-120,-90,0,true)*angles(60,-0,0,true),
+
+				--lado izquierdo
+				cf(0,-.5,0)*angles(-100,-90,40,true)*angles(30,-20,0,true),
+			},
+			ParticleType="PasheIn",
+			headCrack= true,
+			Shaky= true,
 		},
-		Pose={
-			CFrame.Angles(math.rad(-15),math.rad(-20),math.rad(-10)),
-			CFrame.new(0.35,1,0.125)*CFrame.Angles(math.rad(10),math.rad(20),math.rad(-10)),
-			CFrame.new(-0.1,-0.35,-0.1)*CFrame.Angles(math.rad(20),math.rad(20),math.rad(25)),
-			CFrame.new(0.1,0.3,-0.3)*CFrame.Angles(math.rad(170),math.rad(-30),math.rad(-10)),
-			CFrame.new(0.1,0.8,-0.65)*CFrame.Angles(math.rad(-15),math.rad(-30),math.rad(5)),
-			CFrame.new(0,0,0)*CFrame.Angles(math.rad(5),math.rad(10),math.rad(-5))
+		P = {
+			Colours = {
+				Glow=BrickColor.new("Maroon").Color,
+				GlowSec=BrickColor.new("Maroon").Color,
+				Body=BrickColor.new("Maroon").Color,
+				BodySec=BrickColor.new("Maroon").Color,
+				Spikes=BrickColor.new("Maroon").Color,
+				SpikesSec=BrickColor.new("Maroon").Color
+			},
+			Music={
+				{Id=18923521851,Pitch=1,Volume=20},
+				{Id=18867403321,Pitch=1,Volume=.9},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-15),math.rad(-20),math.rad(-10)),
+				CFrame.new(0.35,1,0.125)*CFrame.Angles(math.rad(10),math.rad(20),math.rad(-30)),
+				CFrame.new(-0.1,-0.35,-0.1)*CFrame.Angles(math.rad(20),math.rad(20),math.rad(45)),
+				CFrame.new(0.1,0.3,-0.3)*CFrame.Angles(math.rad(135),math.rad(-40),math.rad(-20)),
+				CFrame.new(-0.1,0.7,-1.2)*CFrame.Angles(math.rad(-15),math.rad(-30),math.rad(20)),
+				CFrame.new(0,0.4,-0.4)*CFrame.Angles(math.rad(45),math.rad(60),math.rad(-37))
+			},
+			WingCFs={
+				--lado derecho
+				cf(-0,.5,0)*angles(-70,-90,0,true)*angles(-30,40,0,true),
+
+				--whites
+				cf(-0,0,0)*angles(-120,-90,0,true)*angles(-60,0,0,true),
+
+				--lado derecho
+				cf(-0,-.5,0.3)*angles(-100,-90,40,true)*angles(-30,20,0,true),
+
+				--lado izquierdo
+				cf(0,.5,0.3)*angles(-70,-90,0,true)*angles(30,-40,0,true),
+
+				--whites
+				cf(0,0,0)*angles(-120,-90,0,true)*angles(60,-0,0,true),
+
+				--lado izquierdo
+				cf(0,-.5,0)*angles(-100,-90,40,true)*angles(30,-20,0,true),
+			},
+			ParticleType="Hang",
+			headCrack= true,
+			Shaky= true,
 		},
-		WingCFs={
-			cf(-1,.5,0)*angles(-140,-90,0,true)*angles(-30,0,0,true),
-			cf(-2,8,-1.5),
-			cf(-1.4,-.5,0)*angles(-80,-90,0,true)*angles(-50,0,0,true),
-			cf(1,.5,0)*angles(-140,-90,0,true)*angles(30,0,0,true),
-			cf(1,6,-1.4)*angles(0,0,-80,true),
-			cf(1.4,-.5,0)*angles(-80,-90,0,true)*angles(50,0,0,true),
+		K = {
+			Colours = {
+				Glow=BrickColor.new("Light pink").Color,
+				GlowSec=BrickColor.new("White").Color,
+				Body=BrickColor.new("Light pink").Color,
+				BodySec=BrickColor.new("White").Color,
+				Spikes=BrickColor.new("White").Color,
+				SpikesSec=BrickColor.new("Light pink").Color
+			},
+			Music={
+				{Id=18911349471,Pitch=1,Volume=.9},
+				{Id=18911470912,Pitch=1,Volume=.9},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(2),math.rad(15),math.rad(0)),
+				CFrame.new(-0.1,-0.1,0.05)*CFrame.Angles(math.rad(-3),math.rad(-10),math.rad(6)),
+				CFrame.new(0.3,-0.1,0.75)*CFrame.Angles(math.rad(-15),math.rad(-70),math.rad(10))*CFrame.Angles(math.rad(25),math.rad(0),math.rad(0)),
+				CFrame.new(0,0,-0.2)*CFrame.Angles(math.rad(-7.5),math.rad(-20),math.rad(3)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(0),math.rad(5),math.rad(-2.5)),
+			},
+			WingCFs={
+				--lado derecho
+				cf(-0,.5,2)*angles(-120,-70,-30,true)*angles(-40,-2,-40,true),
+				--whites
+				cf(0,1,2)*angles(-150,-70,0,true)*angles(-20,10,1,true),
+				--lado derecho
+				cf(-0,-.5,2)*angles(-120,-90,0,true)*angles(-40,2,0,true),
+				--lado izquierdo
+				cf(0,.5,2)*angles(120,-90,0,true)*angles(130,-1,0,true),
+				--whites
+				cf(0,1,2)*angles(-150,-70,0,true)*angles(20,-10,1,true),
+				--lado izquierdo
+				cf(0,-.5,2)*angles(-120,-90,0,true)*angles(30,-1,0,true),
+				--
+			},
+			ParticleType="SpikesUp"
 		},
-		Shaky=true,
-		ParticleType="Hang"
-	},
-	Y={
-		Colours={
-			Glow=BrickColor.new("White").Color,
-			GlowSec=BrickColor.new("Really black").Color,
-			Body=BrickColor.new("Really black").Color,
-			BodySec=BrickColor.new("White").Color,
-			Spikes=BrickColor.new("Really black").Color,
-			SpikesSec=BrickColor.new("White").Color
+		G={
+			Colours={
+				Glow=BrickColor.new("White").Color,
+				GlowSec=BrickColor.new("Institutional white").Color,
+				Body=BrickColor.new("White").Color,
+				BodySec=BrickColor.new("White").Color,
+				Spikes=BrickColor.new("Institutional white").Color,
+				SpikesSec=BrickColor.new("Phosph. White").Color
+			},
+			Music={
+				{Id=18865687393,Pitch=1,Volume=.8},
+				{Id=18865676126,Pitch=1,Volume=.8},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-2.5),math.rad(0),math.rad(0)),
+				CFrame.new(0,0,0),
+				CFrame.new(-0.2,-0.25,0)*CFrame.Angles(math.rad(25),math.rad(80),math.rad(-10))*CFrame.Angles(math.rad(20),math.rad(0),math.rad(0)),
+				CFrame.new(0.35,-0.15,0)*CFrame.Angles(math.rad(-10),math.rad(70),math.rad(0))*CFrame.Angles(math.rad(-20),math.rad(0),math.rad(0)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(0),math.rad(-5),math.rad(2)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(0),math.rad(5),math.rad(-2)),
+			},
+			WingCFs={
+				--lado derecho
+
+				cf(-1,.5,0)*angles(-120,-70,-30,true)*angles(-40,-2,-40,true),
+				--whites
+
+				cf(-.75,0,0)*angles(135,-180,-115,true)*angles(-70,-10,1,true),
+
+				--lado derecho
+
+				cf(-1.4,-.5,0)*angles(-120,-90,0,true)*angles(-40,2,0,true),
+
+				--lado izquierdo
+
+				cf(1,.5,0)*angles(120,-90,0,true)*angles(130,-1,0,true),
+
+				--whites
+
+				cf(.85,0,0)*angles(135,-180,115,true)*angles(-70,-10,1,true),
+
+				--lado izquierdo
+
+				cf(1.4,-.5,0)*angles(-120,-90,0,true)*angles(30,-1,0,true),
+				--
+			},
+			ParticleType="SpikesUp"
 		},
-		Music={
-			{Id=18841356192,Pitch=1,Volume=.5},
-			{Id=18841101762,Pitch=1,Volume=.5},
+		T={
+			Colours={
+				Glow=rgb(154,229,154),
+				GlowSec=rgb(201,153,255),
+				Body=BrickColor.new("Institutional white").Color,
+				BodySec=rgb(154,229,154),
+				Spikes=rgb(201,153,255),
+				SpikesSec=BrickColor.new("Institutional white").Color
+			},
+			Music={
+				{Id=18840925427,Pitch=1,Volume= 1},
+				{Id=18835369557,Pitch=1,Volume=.7},
+			},
+			Pose={
+				CFrame.Angles(math.rad(-8),math.rad(15),math.rad(0)),
+				CFrame.new(0.125,-0.05,0)*CFrame.Angles(math.rad(-5),math.rad(-15),math.rad(-5)),
+				CFrame.new(-0.75,0,-0.2)*CFrame.Angles(math.rad(20),math.rad(15),math.rad(-20)),
+				CFrame.new(0.75,0,-0.15)*CFrame.Angles(math.rad(30),math.rad(-10),math.rad(35)),
+				CFrame.new(0.2,0.125,-0.35)*CFrame.Angles(math.rad(-10),math.rad(-35),math.rad(-10)),
+				CFrame.new(0,0,0)*CFrame.Angles(math.rad(5),math.rad(5),math.rad(2)),
+			},
+			WingCFs={
+				cf(-1,.5,0)*angles(-140,-90,0,true)*angles(-30,0,0,true),
+				cf(-.75,0,-.5)*angles(-100,-90,0,true)*angles(-80,50,-10,true),
+				cf(-1.4,-.5,0)*angles(-80,-90,0,true)*angles(-50,0,0,true),
+				cf(1,.5,0)*angles(-140,-90,0,true)*angles(30,0,0,true),
+				cf(.75,0,-.5)*angles(-100,-90,0,true)*angles(80,-50,10,true),
+				cf(1.4,-.5,0)*angles(-80,-90,0,true)*angles(50,0,0,true),
+			},
+			ParticleType="PhaseIn"
 		},
-		Pose={
-			CFrame.Angles(math.rad(-5),math.rad(-35),math.rad(0)),
-			CFrame.new(0,-0.1,0)*CFrame.Angles(math.rad(-7.5),math.rad(35),math.rad(0)),
-			CFrame.new(0,-0.40,-0)*CFrame.Angles(math.rad(5),math.rad(0),math.rad(35))*CFrame.Angles(math.rad(0),math.rad(-0),math.rad(0)),
-			CFrame.new(0.125,-0.25,0.15)*CFrame.Angles(math.rad(-2.5),math.rad(35),math.rad(-15)),
-			CFrame.new(0.1,0.1,-0.1)*CFrame.Angles(math.rad(10),math.rad(-37.5),math.rad(4)),
-			CFrame.new(0,0,0)*CFrame.Angles(math.rad(5),math.rad(15),math.rad(-5)),
-		},
-		WingCFs={
-			--
-			cf(-1,.5,0)*angles(-30,-90,0,true)*angles(-40,2,0,true),
-			--whites
-			cf(-.75,0,0)*angles(-125,-90,0,true)*angles(-30,10,1,true),
-			--
-			cf(-1.4,-.5,0)*angles(-180,-90,0,true)*angles(-40,2,0,true),
-			--
-			cf(1,.5,0)*angles(180,-90,0,true)*angles(130,-1,0,true),
-			--whites
-			cf(.85,0,0)*angles(-125,-90,0,true)*angles(10,-10,1,true),
-			--
-			cf(1.4,-.5,0)*angles(-180,-90,0,true)*angles(30,-1,0,true),
-			--
-		},
-		Shaky=false,
-		ParticleType="Hang"
-	},
-	U={
-		Colours={
-			Glow=BrickColor.new("Sand yellow metallic").Color,
-			GlowSec=BrickColor.new("Pastel yellow").Color,
-			Body=BrickColor.new("Sand yellow metallic").Color,
-			BodySec=BrickColor.new("Pastel yellow").Color,
-			Spikes=BrickColor.new("Sand yellow metallic").Color,
-			SpikesSec=BrickColor.new("Pastel yellow").Color
-		},
-		Music={
-			{Id=18864254019,Pitch=1,Volume=.5},
-			{Id=18849815370,Pitch=1,Volume=.5},
-		},
-		Pose={
-			CFrame.Angles(math.rad(0),math.rad(-30),math.rad(-5)),
-			CFrame.new(0,-0.1,-0.1)*CFrame.Angles(math.rad(-10),math.rad(30),math.rad(0)),
-			CFrame.new(-0.1,-0.15,-0.025)*CFrame.Angles(math.rad(7.5),math.rad(10),math.rad(10)),
-			CFrame.new(0.1,-0.125,0.1)*CFrame.Angles(math.rad(-10),math.rad(20),math.rad(-10)),
-			CFrame.new(0.1,0.2,-0.35)*CFrame.Angles(math.rad(5),math.rad(-30),math.rad(5)),
-			CFrame.new(0,0,-0.125)*CFrame.Angles(math.rad(-5),math.rad(0),math.rad(0)),
-		},
-		WingCFs={
-			--lado derecho
-			cf(-1,.5,0)*angles(-120,-70,-30,true)*angles(-40,-2,-40,true),
-			--whites
-			cf(-.75,0,0)*angles(-145,-70,0,true)*angles(-30,10,1,true),
-			--lado derecho
-			cf(-1.4,-.5,0)*angles(-120,-90,0,true)*angles(-40,2,0,true),
-			--lado izquierdo
-			cf(1,.5,0)*angles(120,-90,0,true)*angles(130,-1,0,true),
-			--whites
-			cf(.85,0,0)*angles(-145,-70,0,true)*angles(10,-10,1,true),
-			--lado izquierdo
-			cf(1.4,-.5,0)*angles(-120,-90,0,true)*angles(30,-1,0,true),
-			--
-		},
-		ParticleType="BackRing"
-	},
-	F={
-		Colours={
-			Glow=BrickColor.new("Pastel Blue").Color,
-			GlowSec=BrickColor.new("Baby blue").Color,
-			Body=BrickColor.new("Black metallic").Color,
-			BodySec=BrickColor.new("Pastel Blue").Color,
-			Spikes=BrickColor.new("Yellow flip/flop").Color,
-			SpikesSec=BrickColor.new("Bright blue").Color
-		},
-		Music={
-			{Id=18850614584,Pitch=1,Volume=.9},
-			{Id=18850627890,Pitch=1,Volume=.9},
-		},
-		Pose={
-			CFrame.Angles(math.rad(-10),math.rad(-15),math.rad(0)),
-			CFrame.new(0,0,0.15)*CFrame.Angles(math.rad(7.5),math.rad(15),math.rad(0)),
-			CFrame.new(-0.25,-0.25,-0.15)*CFrame.Angles(math.rad(90),math.rad(0),math.rad(-80))*CFrame.Angles(math.rad(20),math.rad(5),math.rad(0)),
-			CFrame.new(0.3,-0.2,-0.2)*CFrame.Angles(math.rad(90),math.rad(0),math.rad(75))*CFrame.Angles(math.rad(10),math.rad(30),math.rad(0)),
-			CFrame.new(0,0,0)*CFrame.Angles(math.rad(-10),math.rad(-10),math.rad(0)),
-			CFrame.new(0,0,0)*CFrame.Angles(math.rad(-10),math.rad(0),math.rad(-5)),
-		},
-		WingCFs={
-			--lado derecho
-			cf(-1,.5,0)*angles(-120,-70,-30,true)*angles(-40,-2,-40,true),
-			--whites
-			cf(-.75,0,0)*angles(-145,-70,0,true)*angles(-30,10,1,true),
-			--lado derecho
-			cf(-1.4,-.5,0)*angles(-120,-90,0,true)*angles(-40,2,0,true),
-			--lado izquierdo
-			cf(1,.5,0)*angles(120,-90,0,true)*angles(130,-1,0,true),
-			--whites
-			cf(.85,0,0)*angles(-145,-70,0,true)*angles(10,-10,1,true),
-			--lado izquierdo
-			cf(1.4,-.5,0)*angles(-120,-90,0,true)*angles(30,-1,0,true),
-			--
-		},
-		ParticleType="SpikesUp"
-	},
-	H = {
-		Colours = {
-			Glow=BrickColor.new("Neon orange").Color,
-			GlowSec=BrickColor.new("Sea green").Color,
-			Body=BrickColor.new("Black metallic").Color,
-			BodySec=BrickColor.new("Yellow flip/flop").Color,
-			Spikes=BrickColor.new("Lime green").Color,
-			SpikesSec=BrickColor.new("Neon orange").Color
-		},
-		Music={
-			{Id=17760087376,Pitch=1,Volume=.9},
-			{Id=18850627890,Pitch=1,Volume=.9},
-		},
-		Pose={
-			CFrame.Angles(math.rad(-5),math.rad(-10),math.rad(-5)),
-			CFrame.new(0,0,0.1)*CFrame.Angles(math.rad(3),math.rad(10),math.rad(0)),
-			CFrame.new(-0.15,-0.25,-0.5)*CFrame.Angles(math.rad(90),math.rad(0),math.rad(-70))*CFrame.Angles(math.rad(0),math.rad(80),math.rad(0))*CFrame.Angles(math.rad(0),math.rad(0),math.rad(10)),
-			CFrame.new(0.1,-0.1,0.025)*CFrame.Angles(math.rad(-3),math.rad(5),math.rad(-3)),
-			CFrame.new(0,0,0)*CFrame.Angles(math.rad(-1),math.rad(-12.5),math.rad(0)),
-			CFrame.new(0,0,0)*CFrame.Angles(math.rad(-4),math.rad(5),math.rad(-2)),
-		},
-		WingCFs={
-			--lado derecho
-			cf(-1,.5,0)*angles(-120,-70,-30,true)*angles(-40,-2,-40,true),
-			--whites
-			cf(-.75,0,0)*angles(-145,-70,0,true)*angles(-30,10,1,true),
-			--lado derecho
-			cf(-1.4,-.5,0)*angles(-120,-90,0,true)*angles(-40,2,0,true),
-			--lado izquierdo
-			cf(1,.5,0)*angles(120,-90,0,true)*angles(130,-1,0,true),
-			--whites
-			cf(.85,0,0)*angles(-145,-70,0,true)*angles(10,-10,1,true),
-			--lado izquierdo
-			cf(1.4,-.5,0)*angles(-120,-90,0,true)*angles(30,-1,0,true),
-			--
-		},
-		ParticleType="SpikesUp"
-	},
-	J = {
-		Colours = {
-			Glow=BrickColor.new("Maroon").Color,
-			GlowSec=BrickColor.new("Maroon").Color,
-			Body=BrickColor.new("Really black").Color,
-			BodySec=BrickColor.new("Maroon").Color,
-			Spikes=BrickColor.new("Maroon").Color,
-			SpikesSec=BrickColor.new("Maroon").Color
-		},
-		Music={
-			{Id=18867299434,Pitch=1,Volume=.9},
-			{Id=18867403321,Pitch=1,Volume=.9},
-		},
+	}
 --[[
 Left Shoulder: 
 	C0: CFrame.new(-1,.5,0)*CFrame.new(0.75,0,-0.15)*CFrame.Angles(math.rad(30),math.rad(-10),math.rad(35))
