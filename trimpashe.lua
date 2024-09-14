@@ -72,7 +72,7 @@ local function ModesM()
 				SpikesSec=BrickColor.new("Neon orange").Color
 			},
 			Music={
-				{Id=18835203679,Pitch=1,Volume=1.75}
+				{Id=110016472731145,Pitch=1,Volume=1.75}
 			},
 			Pose={
 				CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
@@ -1343,7 +1343,7 @@ local function ModesM(...)
 			SpikesSec=BrickColor.new("Neon orange").Color
 		},
 		Music={
-			{Id=18835203679,Pitch=1,Volume=1.75}
+			{Id=110016472731145,Pitch=1,Volume=1.75}
 		},
 		Pose={
 			CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
@@ -2606,7 +2606,7 @@ local Modes={
 			SpikesSec=BrickColor.new("Neon orange").Color
 		},
 		Music={
-			{Id=18835203679,Pitch=1,Volume=1.75}
+			{Id=110016472731145,Pitch=1,Volume=1.75}
 		},
 		Pose={
 			CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
@@ -3930,7 +3930,7 @@ local Modes={
 			SpikesSec=BrickColor.new("Neon orange").Color
 		},
 		Music={
-			{Id=18835203679,Pitch=1,Volume=1.75}
+			{Id=110016472731145,Pitch=1,Volume=1.75}
 		},
 		Pose={
 			CFrame.Angles(math.rad(-3),math.rad(-15),math.rad(0)),
