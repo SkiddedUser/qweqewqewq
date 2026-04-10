@@ -1,5 +1,5 @@
 script.Parent = owner.PlayerGui
-local Assets = LoadAssets(90966292963359)
+local Assets = LoadAssets(78014934303729)
 table.foreach(Assets:Get("Assets"):GetChildren(), function(i,v)
 	local lol = v:Clone()
 	lol.Parent = script
